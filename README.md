@@ -21,7 +21,7 @@ This project involves analyzing a music store’s relational database to extract
       •	Identify key cities or countries to target for promotions (e.g., city with highest revenue).
    
       •	Evaluate sales distribution across regions to optimize marketing and distribution efforts.
-## •	Operations:
+### •	Operations:
       •	Determine the senior-most employee (highest job level) to understand store leadership hierarchy.
    
 ## Tools Used
