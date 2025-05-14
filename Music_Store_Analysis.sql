@@ -132,7 +132,6 @@ ORDER BY total DESC
 
 
 /* Q10: Which city has the best customers? We would like to throw a promotional Music Festival in the city we made the most money. 
-Write a query that returns one city that has the highest sum of invoice totals. 
 Return both the city name & sum of all invoice totals */
 
 SELECT billing_city,SUM(total) AS InvoiceTotal
@@ -143,7 +142,7 @@ LIMIT 1;
 
 
 /* Q11: Who is the best customer? The customer who has spent the most money will be declared the best customer. 
-Write a query that returns the person who has spent the most money.*/
+.*/
 
 SELECT customer.customer_id, first_name, last_name, SUM(total) AS total_spending
 FROM customer
